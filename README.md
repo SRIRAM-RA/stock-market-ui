@@ -16,4 +16,4 @@
 *Lib:-
 	This folder consists of the JavaScript Plugins for the charts.
 
-URL:- https://sriram-ra.github.io/stockmarket-model/ 		
+URL:- https://sriram-ra.github.io/stock-market-ui/ 		
