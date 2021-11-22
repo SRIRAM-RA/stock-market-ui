@@ -1,0 +1,372 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  font-family: monospace;
+}
+.col-20 {
+  width: 20%;
+  background-color: #f3f3f3;
+  color: black;
+  padding: 10px;
+  float: left;
+  margin-left: 70px;
+  /*   border: 2px solid white;*/
+  border-radius: 15px;
+  /*box-shadow: 1px 2px #121212;*/
+}
+.col-60 {
+  width: 47%;
+  margin-left: 40px;
+  color: black;
+  background-color: white;
+  float: left;
+  padding: 40px 20px 20px 20px;
+  /* border: 2px solid black; */
+  border-radius: 15px;
+}
+.col-20-1 {
+  width: 20%;
+  margin-right: 30px;
+  background-color: #f3f3f3;
+  color: black;
+  float: right;
+  padding: 40px 20px 20px 20px;
+  /*  border: 2px solid white;*/
+  border-radius: 15px;
+}
+.col-20-2 {
+  width: 100%;
+  float: right;
+  color: wihte;
+  background-color: #f5f5f5;
+  color: black;
+  padding: 0px 0px 0px 5px;
+  border: 2px solid blacs;
+  border: none;
+  /* border-radius: 15px;*/
+  border-left: 3px solid blue;
+}
+row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.profile-container {
+  width: 100%;
+  height: 100px;
+  border-radius: 15px;
+  padding: 0px 4px 2px 9px;
+  background-color: none;
+}
+.pie-chart-val {
+  color: black;
+}
+#profile-name {
+  margin-left: 7px;
+}
+#present-day {
+  margin-top: 10px;
+}
+#help {
+  color: rgb(44, 44, 214);
+  font-weight: bolder;
+  font-size: 13px;
+}
+#learn-more {
+  margin-top: 30px;
+}
+#interest-rate {
+  margin-top: -25px;
+  margin-left: 84%;
+}
+#employee-contribution {
+  margin-top: -25px;
+  margin-left: 84%;
+}
+#col1 {
+  padding-left: 0;
+  padding-bottom: 10px;
+  margin-left: 13px;
+}
+#col2 {
+  padding-left: 0;
+  padding-bottom: 10px;
+  margin-left: 13px;
+}
+#col2-1 {
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+.daily-content-container {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 0px 10px 10px 10px;
+  background-color: none;
+}
+.mode {
+  color: black;
+}
+img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  vertical-align: middle;
+}
+h1 {
+  font-size: xx-large;
+}
+p1 {
+  font-size: 13px;
+  font-weight: bold;
+}
+p2 {
+  font-size: 12px;
+  font-weight: bolder;
+}
+p3 {
+  font-size: 13px;
+  font-weight: bolder;
+}
+p4 {
+  font-size: 15px;
+  font-weight: bolder;
+}
+p5 {
+  font-size: 13px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 17px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 14px;
+}
+h5 {
+  font-size: 15px;
+}
+h6 {
+  font-size: 15px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+}
+.t1 {
+  tab-size: 4;
+}
+.center-1 {
+  margin-left: 35px;
+}
+.center-2 {
+  margin-left: 50px;
+}
+
+/*DARK MODE*/
+.dark-mode-body {
+  background-color: #404040;
+  color: white;
+}
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+.chart-dark-mode {
+  color: white;
+}
+.stack-chart {
+  width: 100%;
+}
+u1.dark-mode {
+  background-color: black;
+}
+.mode-dark-mode {
+  color: white;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.line-space {
+  line-height: 1;
+}
+.line-space-1 {
+  line-height: 2;
+}
+.center {
+  text-align: center;
+  padding: 0ps;
+}
+.pie-chart {
+  display: flex;
+}
+.btn {
+  border-radius: 10px;
+  background-color: #3131dd;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size: medium;
+  outline: none;
+}
+.btn:hover {
+  background-color: darkblue;
+}
+
+/* RANGE SLIDER*/
+#rangeValue {
+  position: absolute;
+  right: 30px;
+  top: -13;
+  padding: 2px;
+  font-family: "Roboto Slab", serif;
+}
+.percent {
+  color: black;
+  float: right;
+  margin-right: 5px;
+  margin-top: -12px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  text-align: center;
+  width: 10%;
+  outline: none;
+  background: none;
+  border: none;
+}
+.range-slider {
+  position: relative;
+}
+#col3 {
+  margin-left: -13px;
+}
+#slider {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 3px;
+  border-radius: 5px;
+  background: blue;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border: 1px solid black;
+  box-shadow: 1px 1px grey;
+  border-radius: 50%;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 241, 241));
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+/*RANGE SLIDER 2*/
+#rangeValue1 {
+  position: absolute;
+  right: 30px;
+  top: -13;
+  padding: 2px;
+  font-family: "Roboto Slab", serif;
+}
+
+.range-slider-1 {
+  position: relative;
+}
+
+#slider-1 {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 3px;
+  border-radius: 5px;
+  background: blue;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+#slider-1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border: 1px solid black;
+  box-shadow: 1px 1px grey;
+  border-radius: 50%;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 241, 241));
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+}
+::-webkit-scrollbar-thumb {
+  background: blue;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(158, 52, 52);
+}

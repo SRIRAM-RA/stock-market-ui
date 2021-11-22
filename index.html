@@ -1,0 +1,309 @@
+<html> 
+    <head>
+        <title>
+            Mockup
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/media.css">
+        <link rel="stylesheet" href="assets/css/top-bottom-nav.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/page.css">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="assets/css/global.css">
+        <link rel="stylesheet" href="assets/css/nav.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@600&family=Noto+Sans+KR:wght@500&family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+        <style>
+            .dark-mode{
+                background-color: #121212;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <div class="center">
+                <a href="" ><i class="far fa-bell" style="color: grey;"></i></a>
+            </div>
+        </div>
+        <div>
+            <ul class="nav">
+                <div class="center">
+                    <li class="nav-contents"><img id="img1" src="assets/images/butterfly3.jpg"></li>
+                </div>
+                <br>
+                <div class="center">
+                    <li class="nav-contents"><a href="" ><i class="fas fa-search"></i></a></li>
+                </div>
+                <br><br><br><br>
+                <div class="center">
+                    <li class="nav-contents active" ><a href=""><i class="fas fa-home" style="color: white;"></i></a></li>
+                </div>
+                <div class="center">
+                    <li class="nav-contents"><a href=""><i class="far fa-address-card"></i></a></li>
+                </div>
+                <div class="center">
+                    <li class="nav-contents"><a href=""><i class="far fa-list-alt"></i></a></li>
+                </div>
+                <div class="center">
+                    <li class="nav-contents"><a href=""><i class="far fa-user"></i></a></li>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br>
+                <div class="center" id="mob-top-nav">
+                    <li class="nav-contents"><a href=""><i class="far fa-bell"></i></a></li>
+                </div>
+                <div class="center">
+                    <li class="nav-contents" id="sign-out"><a href=""><i class="fas fa-sign-out-alt"></i></a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="container-fluid my-3 pt-3 ">
+            <div class="mode">
+                <div class="center">
+                    <h1 style="font-family: 'Roboto Slab', serif; "> Added Some New Feature </h1>
+                    <h1 style="font-family: 'Roboto Slab', serif; font-weight: bolder;"> Dark / Light</h1>
+                    <label class="switch">
+                        <input type="checkbox" onclick="myFunction()">
+                        <span class="slider round"></span>
+                    </label> 
+                </div>
+            </div>
+        </div>
+        <div class="col-20">
+            <div class="profile-container">
+                <div class="row profile-box" style="margin-right: 0;">
+                    <div class="col-md-3 pt-3 text-center" style="float: left;" id="dp">
+                        <img src="assets/images/dp1.png">
+                    </div>
+                    <div class="col-md-8 pt-4" id="profile-name">
+                        <h1 style="font-family: 'Roboto Slab', serif;"> Gohanray,</h1>
+                        <p1 style="font-family: 'Roboto Slab', serif;">Welcome back.</p1>
+                    </div>
+                </div>
+            </div>
+            <div class="daily-content-container">
+                <h2 style="font-family: 'Roboto Slab', serif;" id="present-day">
+                    Today
+                </h2>
+                <div class="line-space">
+                    <h3 style="font-family: 'Roboto Slab', serif;" id="present-day"> $ 19,892</h2> 
+                    <p2 style="font-family: 'Roboto Slab', serif;" id="present-day"> Account Balance</p2>
+                </div>
+                <br>
+                <div class="daily-content-container-1">
+                    <div class="line-space">
+                        <h2 style="font-family: 'Roboto Slab', serif;" id="present-day-1"> $ 4,000</h2>
+                        <p2 id="on-page-content" style="font-family: 'Roboto Slab', serif;"> Year-to-Date Contributions</p2>
+                    </div>
+                    <br>
+                    <div class="line-space" id="right">
+                        <h2 style="font-family: 'Roboto Slab', serif;"> $ 1,892</h2>
+                        <p2 style="font-family: 'Roboto Slab', serif;"> Total Interest</p2>
+                    </div>
+                </div>
+                <br>
+                <div class="center">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="font-family: 'Roboto Slab', serif;"> I want to </button> 
+                </div>
+                <br>
+                <h2 style="font-family: 'Roboto Slab', serif;">
+                    Recent Transactions
+                </h2>
+                <br>
+                <h4 style="font-family: 'Roboto Slab', serif;"> 2020-08-07</h4>
+                <p3 style="font-family: 'Roboto Slab', serif;"> Withdrawal Transfer to Bank-XXX11</p3>
+                <br><br><br>
+                <h4 style="font-family: 'Roboto Slab', serif;"> 2020-07-21</h4>
+                <p3 style="font-family: 'Roboto Slab', serif;"> Withdrawal Transfer to Bank-XXX11</p3>
+                <br><br><br>
+                <h4 style="font-family: 'Roboto Slab', serif;"> 2020-07-16</h4>
+                <p3 style="font-family: 'Roboto Slab', serif;"> Withdrawal Transfer to Bank-XXX11</p3>
+                <br>
+            </div>
+            <br>
+        </div>
+        <div class="col-60" >
+            <p1 style="font-family: 'Roboto Slab', serif; color: rgb(32, 32, 238);">
+                Retirement Income
+            </p1>
+            <h3 style="font-family: 'Roboto Slab', serif;"> Starting Year 2056</h2> 
+            <br>
+            <div class="row" style="display: flex; margin-right: 0;">
+                <div class="col-sm-3" id="col1" style="border-bottom:2px solid blue;">
+                    <h3 style="font-family: 'Roboto Slab', serif;"> $300,000</h2> 
+                    <p2 style="font-family: 'Roboto Slab', serif;"> My Goal</p2>
+                </div>
+                <p12> &nbsp; &nbsp; </p12>
+                <div class="col-sm-3" id="col2" style="border-bottom:2px solid blue;">
+                    <h3 style="font-family: 'Roboto Slab', serif;"> 59%</h2> 
+                    <p2 style="font-family: 'Roboto Slab', serif;"> Goal Achieved</p2>
+                </div>
+                <p> &nbsp; &nbsp; &nbsp;</p>
+                <div class="col-sm-3" id="col2-1" style="border-bottom:2px solid blue;">
+                    <h3 style="font-family: 'Roboto Slab', serif;"> $300</h2> 
+                    <p2 style="font-family: 'Roboto Slab', serif;"> Est.Monthly Income</p2>
+                </div>
+            </div>
+            <br><br><br>
+            <h2 style="font-family: 'Roboto Slab', serif; font-weight: bolder;">
+                Contributions Overtime 
+            </h2>
+            <div class="stack-chart">
+                <div id="testDiv"></div>
+                <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+                <script src="assets/lib/bar-chart.js"></script>
+            </div>
+            <br><br>
+            <h2 style="font-family: 'Roboto Slab', serif; font-weight: bolder;">
+                How do I compare to my peers ? 
+            </h2>
+            <p5 style="font-family: 'Roboto Slab', serif;"> These numbers represent current goal achievement</p5>
+            <br><br>
+            <div class="row" style="margin-right: 0;">
+                <div class="col-lg pt-2" >
+                    <div class="col-md-13" >
+                        <h6>Age: Under 30&#11206;</h6>
+                    </div>
+                    <br>
+                    <div class="col-md-15">
+                        <h6>Salary: k20-k30&#11206;</h6>
+                    </div>
+                    <br>
+                    <div class="col-md-15">
+                        <h6>Gender: Male&#11206;</h6>
+                    </div>
+                </div>
+                <div class="pie-chart">
+                    <div class="col-md-3 ">
+                        <div class="pie" id="pie-chart-val" data-pie='{ "percent": 78, "colorSlice": "#48D1CC" }' ></div>
+                        <div class="center-1" id="center-alter">
+                            <h2 style="font-family: 'Roboto Slab', serif; font-weight: bolder;"> Average </h2>
+                        </div>
+                    </div>
+                    <p12> &nbsp; &nbsp; &nbsp;</p12>
+                    <div class="col-md-3 ">
+                        <div class="pie" id="pie-chart-val" data-pie='{ "percent": 95, "colorSlice": "#48D1CC" }' ></div>
+                        <div class="center-2" id="center-alter">
+                            <h2 style="font-family: 'Roboto Slab', serif; font-weight: bolder;"> Top </h2>
+                        </div>
+                    </div>
+                    <p12> &nbsp; &nbsp; &nbsp;</p12>
+                    <div class="col-md-3">
+                        <div class="pie" id="pie-chart-val" data-pie='{ "percent": 59, "colorSlice": "#48D1CC" }' ></div>
+                        <div class="center-2" id="center-alter">
+                            <h2 style="font-family: 'Roboto Slab', serif; font-weight: bolder;"> Me </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-20-1">
+            <h2 style="font-family: 'Roboto Slab', serif; font-weight: bolder;">
+                Retirement Strategy
+            </h2>
+            <br>
+            <h5 style="font-family: 'Roboto Slab', serif;">
+                Employee Conntribution
+            </h5>
+            <br>
+            <div class="range-slider">
+                <span id="rangeValue">0</span>
+                <input type="text" class="percent" value="%" readonly>
+                <input type="range"  id="slider" name="" value="0" min="=0" max="20"
+                onmousemove="rangeSlider(this.value)" onchange="rangeSlider(this.value)" >
+            </div>
+            <br><br>
+            <h5 style="font-family: 'Roboto Slab', serif;">
+                Retirement Age
+            </h5>
+            <br>
+            <div class="range-slider-1">
+                <span id="rangeValue1">0</span>
+                <input type="range"  id="slider-1" name="" value="0" min="=0" max="80"
+                onmousemove="rangeSlider1(this.value)" onchange="rangeSlider1(this.value)" >
+            </div>
+            <br><br>
+            <h5 style="font-family: 'Roboto Slab', serif;">
+                Employee Conntribution 
+                <h5 id="employee-contribution" style="font-family: 'Roboto Slab', serif;"> 8.4%</h5>
+            </h5>
+            <br>
+            <h5 style="font-family: 'Roboto Slab', serif;">
+                Interest Rate
+                <h5 id="interest-rate" style="font-family: 'Roboto Slab', serif;"> 5%</h5>
+            </h5>
+            <br>
+            <div class="center">
+                <button class="btn btn-primary" type="button" style="font-family: 'Roboto Slab', serif; width: 70%;"> Update </button> 
+            </div>
+            <div class="center">
+                <a href="" id="help" style=" font-family: 'Roboto Slab', serif;"> View Help Docs ></a>
+            </div>
+            <div class="col-20-2" id="learn-more">
+                <div class="col-sm-8">
+                    <div class="line-space-1">
+                        <p3 style="font-family: 'Roboto Slab', serif; font-weight: lighter;"> Are you considering a </p3>
+                        <p4 style="font-family: 'Roboto Slab', serif;"> Housing Advance ?</p4>
+                        <p2 style="font-family: 'Roboto Slab', serif;"> Limited time reduced Interest</p2>
+                        <a href="" style=" font-family: 'Roboto Slab', serif; color: rgb(48, 48, 216); font-weight: bolder; font-size: 13px"> Learn More ></a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="navbar-bottom">
+            <div class="center item">
+                <a href="" class="active"><i class="fas fa-home" style="color: white;"></i></a>
+            </div>
+            <div class="center item">
+                <a href="" ><i class="far fa-address-card" style="color: grey;"></i></a>
+            </div>
+            <div class="center item">
+                <a href="" ><i class="far fa-list-alt" style="color: grey;"></i></a>
+            </div>
+            <div class="center item">
+                <a href="" ><i class="far fa-user" style="color: grey;"></i></a>
+            </div>
+            <div class="center item">
+                <a href="" ><i class="fas fa-search" style="color: grey;"></i></a>
+            </div>
+        </div>
+        <script>
+           function myFunction() {
+              var element = document.body;
+                element.classList.toggle("dark-mode-body");
+                document.getElementsByClassName('col-20')[0].classList.toggle("dark-mode");
+                document.getElementsByClassName('col-60')[0].classList.toggle("dark-mode");
+                document.getElementsByClassName('col-20-1')[0].classList.toggle("dark-mode");
+                document.getElementsByClassName('col-20-2')[0].classList.toggle("dark-mode");
+                document.getElementsByClassName('mode')[0].classList.toggle("mode-dark-mode");
+                document.getElementsByClassName('percent')[0].classList.toggle("dark-mode");
+                document.getElementsByClassName('nav')[0].classList.toggle("dark-mode");
+                document.getElementsByClassName('navbar-bottom')[0].classList.toggle("dark-mode");
+                document.getElementsByClassName('topnav')[0].classList.toggle("dark-mode");
+                document.getElementsByClassName('pie-chart-val')[0].classList.toggle("chart-dark-mode");
+            }
+            function rangeSlider(value){
+                document.getElementById('rangeValue').innerHTML= value;
+            }
+            function rangeSlider1(value){
+                document.getElementById('rangeValue1').innerHTML= value;
+            }
+        </script>
+        <script>
+                window.addEventListener('DOMContentLoaded', () => {
+                  const circle = new CircularProgressBar('pie');
+                });
+        </script>
+              <!-- <script src="presentation.js"></script> -->
+        <script src="assets/lib/circularProgressBar.min.js"></script>
+    </body>
+</html>
+        
